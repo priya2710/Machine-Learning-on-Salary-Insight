@@ -23,20 +23,20 @@ y_pred = regressor.predict(X_test)
 # Step 5 - Visualize training set results
 import matplotlib.pyplot as plt
 
-#plot the actual data points of training set
+# Step 6 - Plot the actual data points of training set
 plt.scatter(X_train, y_train, color = 'red')
-# plot the regression line
+# Step 7 - Plot the regression line
 plt.plot(X_train, regressor.predict(X_train), color='blue')
 plt.title('Salary vs Experience (Training set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
 
-# Step 6 - Visualize test set results
+# Step 8 - Visualize test set results
 import matplotlib.pyplot as plt
-# plot the actual data points of test set
+# Step 9 - Plot the actual data points of test set
 plt.scatter(X_test, y_test, color = 'red')
-# plot the regression line (same as above)
+# Step 10 - plot the regression line (same as above)
 plt.plot(X_train, regressor.predict(X_train), color='blue')
 plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
