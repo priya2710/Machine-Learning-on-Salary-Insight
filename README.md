@@ -1,7 +1,13 @@
+               ![shutterstock_1164353044](https://user-images.githubusercontent.com/52822987/120143771-5feaa800-c1fe-11eb-8a57-6f6c12fc80ae.jpg)
+
+
 # Machine-Learning-on-Salary-Insight
 
 It has 2 columns — “Years of Experience” and “Salary” for 30 employees in a company. We have to predict the salary of an employee given how many years of experience they have.
 Here is the code for your reference, although I have uploaded the jupyter notebook.
+
+               ![pic](https://user-images.githubusercontent.com/52822987/120143985-c7a0f300-c1fe-11eb-984c-a5f85c7d9e02.JPG)
+
 
 import pandas as pd
 dataset = pd.read_csv('Salary_Data.csv')
